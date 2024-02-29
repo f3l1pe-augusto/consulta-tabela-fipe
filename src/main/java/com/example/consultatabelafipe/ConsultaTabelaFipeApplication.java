@@ -1,5 +1,6 @@
 package com.example.consultatabelafipe;
 
+import com.example.consultatabelafipe.main.Main;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,6 +14,8 @@ public class ConsultaTabelaFipeApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) {
-		System.out.println("Hello World!");
+
+		Main main = new Main();
+		main.showMenu();
 	}
 }
