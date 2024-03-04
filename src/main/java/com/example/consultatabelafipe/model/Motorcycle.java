@@ -1,4 +1,4 @@
 package com.example.consultatabelafipe.model;
 
-public class Motorcycle {
+public record Motorcycle() {
 }
